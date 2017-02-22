@@ -1,0 +1,6 @@
+[Unit]
+Description=extIP
+
+[Service]
+Type=simple
+ExecStart=/extIP.sh

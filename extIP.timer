@@ -1,0 +1,14 @@
+[Unit]
+Description=Runs extIP every few minutes
+
+[Timer]
+OnBootSec=30s
+OnUnitActiveSec=5m
+Unit=extIP.service
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
